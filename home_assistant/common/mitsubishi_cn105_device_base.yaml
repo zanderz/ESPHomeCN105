@@ -260,9 +260,9 @@ climate:
         current_temperature: 0.5
     # Fahrenheit compatibility mode - uses Mitsubishi's "custom" unit conversions, set to
     # "true" for better support of Fahrenheit units in HomeAssistant
-    fahrenheit_compatibility: true
+    fahrenheit_compatibility: "true"
     # Timeout and communication settings
-    remote_temperature_timeout: 60min
+    remote_temperature_timeout: "60min"
     update_interval: ${hp_update_interval}
     debounce_delay : 100ms
     # Various optional sensors, not all sensors are supported by all heatpumps
